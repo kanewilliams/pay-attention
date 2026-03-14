@@ -1,0 +1,16 @@
+# Python
+*.pyc
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+dist/
+
+# Data/models
+*.pt
+*.safetensors
+data/
+
+# Env
+.env
