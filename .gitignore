@@ -10,7 +10,6 @@ dist/
 # Data/models
 *.pt
 *.safetensors
-data/
 
 # Env
 .env
