@@ -5,6 +5,8 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "ipykernel>=7.2.0",
+    "matplotlib>=3.10.8",
     "torch>=2.10.0",
 ]
 
@@ -14,3 +16,13 @@ dev = [
     "pytest>=9.0.2",
     "ruff>=0.15.6",
 ]
+
+[tool.ruff]
+line-length = 88
+
+[tool.mypy]
+strict = true
+ignore_missing_imports = true
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
